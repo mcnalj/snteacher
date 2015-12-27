@@ -1,0 +1,97 @@
+
+#header {
+	width: 100%;
+	height: 5px;
+	background-color: saddlebrown;
+}
+
+
+#left {
+	float: left;
+	width: 19%;
+	height: 1000px;
+	background-color: lawngreen;
+	margin: 0px 0px 0px 0px;
+}
+
+#body {
+	float: right;
+	width: 80%;
+	height: 1000px;
+	margin: 0px 0px 0px 0px;
+	background-color: skyblue;
+	padding: 0px 0px 0px 13px;
+
+		}
+		
+.text {
+	padding: 0px 0px 0px 50px;
+	font-size: 1em;
+		}
+	
+.caption {
+	padding: 0px 0px 0px 0px;
+	font-size: 0.75em;
+	text-align: center;
+			}
+
+	
+.img {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 50px;
+	text-align: center;
+	}
+	
+#score {
+	position: absolute;
+	background-color: greenyellow;
+	height: 150px;
+	width: 200px;
+	text-align: center;
+	padding: 10px;
+	font-size: 1em;
+	margin: 15px 0px 0px 10px;
+	}
+	
+#badges {
+	position: absolute;
+	background-color: greenyellow;
+	height: 250px;
+	width: 200px;
+	text-align: left;
+	padding: 10px;
+	font-size: 1em;
+	margin: 205px 0px 0px 10px;
+	}
+		
+#footer {
+	clear: both;
+	height: 40px;
+	width: 100%;
+	background-color: peru;
+	text-align: center;
+}
+
+#footer p {
+	position: relative;
+	top: 10px;
+}
+#header div {
+	display: inline-block;
+	background-color: sienna;
+	border: 4px solid black;
+	width: 140px;
+	margin: 15px 8px 0px 8px;
+	text-align: center;
+	
+}
+
+#header div p {
+	color: black;
+	font-size: 1.25em;
+}
+
+fieldset {
+	width: 700px;
+}
+

@@ -1,0 +1,146 @@
+html {
+	font-family: "Trebuchet MS", "Baskerville", "Optima", Cabin;
+	background-color: grey;
+}
+
+body, header, nav, div, aside, section, fieldset, footer {
+	display: block;
+} 
+
+div, h4, p, img, h2, h1, img, ul, li, form {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+html {
+	margin: 0px;
+	padding: 0px;
+	background-color: grey;
+	
+}
+
+body {
+	font: 100%;
+	width: 1400px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 1em;
+	
+}
+
+#banner {
+	height: 300px;
+	background-color: peru;
+	padding: 0px;
+	margin: 0px;
+	width: 1400px;
+}
+
+	#banner img {
+		display: inline-block;
+		margin: 0px;
+		padding: 0px;
+		vertical-align: middle;
+	}
+	
+	#banner div {
+		margin: 0;
+		padding: 0;
+	}
+	
+main {
+
+	width: 100%;
+	height: 800px;
+	margin: 0 auto;
+	position: relative;
+/*	background-color: hsl(240, 0%, 80%); */
+	background: #eeeeee; /* Old browsers */
+	background: -moz-linear-gradient(left,  hsla(0,0%,93%,1) 0%, hsla(0,0%,80%,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,hsla(0,0%,93%,1)), color-stop(100%,hsla(0,0%,80%,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  hsla(0,0%,93%,1) 0%,hsla(0,0%,80%,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  hsla(0,0%,93%,1) 0%,hsla(0,0%,80%,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  hsla(0,0%,93%,1) 0%,hsla(0,0%,80%,1) 100%); /* IE10+ */
+	background: linear-gradient(to right,  hsla(0,0%,93%,1) 0%,hsla(0,0%,80%,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=1 ); /* IE6-9 */
+	
+
+	
+}
+
+#quizSpace {
+	width: 75%;
+	margin: 0 auto;
+	font-size: 1.2em;
+/*	background-color: hsl(45, 70%, 80%);*/
+	/*background-color: hsl(240, 50%, 80%);*/
+	/*background-color: #8BAFFF;*/
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+0,ddf1f9+35,a0d8ef+100;Blue+3D+%2318 */
+/*	background: #feffff; /* Old browsers */
+/*	background: -moz-linear-gradient(left,  hsl(180,100%,100%) 0%, hsl(197,70%,92%) 35%, hsl(197,71%,78%) 100%); /* FF3.6+ */
+/*	background: -webkit-gradient(linear, left top, right top, color-stop(0%,hsl(180,100%,100%)), color-stop(35%,hsl(197,70%,92%)), color-stop(100%,hsl(197,71%,78%))); /* Chrome,Safari4+ */
+/*	background: -webkit-linear-gradient(left,  hsl(180,100%,100%) 0%,hsl(197,70%,92%) 35%,hsl(197,71%,78%) 100%); /* Chrome10+,Safari5.1+ */
+/*	background: -o-linear-gradient(left,  hsl(180,100%,100%) 0%,hsl(197,70%,92%) 35%,hsl(197,71%,78%) 100%); /* Opera 11.10+ */
+/*	background: -ms-linear-gradient(left,  hsl(180,100%,100%) 0%,hsl(197,70%,92%) 35%,hsl(197,71%,78%) 100%); /* IE10+ */
+/*	background: linear-gradient(to right,  hsl(180,100%,100%) 0%,hsl(197,70%,92%) 35%,hsl(197,71%,78%) 100%); /* W3C */
+/*	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=1 ); /* IE6-9 */	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+
+
+/*	background: #eeeeee; /* Old browsers */
+/*	background: -moz-linear-gradient(left,  hsla(0,0%,93%,1) 0%, hsla(0,0%,80%,1) 100%); /* FF3.6+ */
+/*	background: -webkit-gradient(linear, left top, right top, color-stop(0%,hsla(0,0%,93%,1)), color-stop(100%,hsla(0,0%,80%,1))); /* Chrome,Safari4+ */
+/*	background: -webkit-linear-gradient(left,  hsla(0,0%,93%,1) 0%,hsla(0,0%,80%,1) 100%); /* Chrome10+,Safari5.1+ */
+/*	background: -o-linear-gradient(left,  hsla(0,0%,93%,1) 0%,hsla(0,0%,80%,1) 100%); /* Opera 11.10+ */
+/*	background: -ms-linear-gradient(left,  hsla(0,0%,93%,1) 0%,hsla(0,0%,80%,1) 100%); /* IE10+ */
+/*	background: linear-gradient(to right,  hsla(0,0%,93%,1) 0%,hsla(0,0%,80%,1) 100%); /* W3C */
+/*	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=1 ); /* IE6-9 */
+
+}	
+.column {
+	display: inline-block;
+	height: 450;
+}	
+
+.column h1 {
+	font-size: 4em;
+}
+
+.column h2 {
+	font-size: 1.7em;
+}
+	
+		
+	#question {
+		height: 65px;
+		padding: 5px;
+		font-size: 1.2em;
+		font-weight: bolder;
+		text-align: center;
+	}
+	
+	fieldset {
+		padding: 5px 30px;
+		font-size: 1em;
+		border: none;
+		margin: 0px;
+	}
+	
+	#submit {
+		display: block;
+		margin: 0px auto;
+		width: 100px;
+	}
+	
+		
+		
+footer {
+	clear: both;
+	height: 40px;
+	width: 100%;
+	background-color: peru;
+	text-align: center;
+}
+
+

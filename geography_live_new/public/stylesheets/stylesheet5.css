@@ -1,0 +1,368 @@
+html {
+	font-family: "Baskerville", "Optima", "Trebuchet MS", Cabin, "Times New Roman";
+}
+
+body, header, nav, div, aside, section, fieldset, footer {
+	display: block;
+} 
+
+div, h4, p, img, h2, h1, img, ul, li, form {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+h4, h2, h1, li {
+
+}
+
+html {
+	margin: 0px;
+	padding: 0px;
+	background-color: grey;
+	
+}
+
+body {
+	font: 100%;
+	padding: 0px 0px 25px;
+	width: 85%;
+	margin: 0px auto;
+	font-size: 1em;
+	background: #eeeeee; /* Old browsers */
+	background: -moz-linear-gradient(left,  hsla(0,0%,93%,1) 0%, hsla(0,0%,80%,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,hsla(0,0%,93%,1)), color-stop(100%,hsla(0,0%,80%,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  hsla(0,0%,93%,1) 0%,hsla(0,0%,80%,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  hsla(0,0%,93%,1) 0%,hsla(0,0%,80%,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  hsla(0,0%,93%,1) 0%,hsla(0,0%,80%,1) 100%); /* IE10+ */
+	background: linear-gradient(to right,  hsla(0,0%,93%,1) 0%,hsla(0,0%,80%,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=1 ); /* IE6-9 */
+	
+	
+}
+
+#banner {
+	height: 40px;
+	background-color: peru;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+
+	#banner img {
+		margin: 0px;
+		padding: 0px;
+		line-height: 40px;
+		/*margin-left: 67%;*/
+		margin-left: 700px;
+		width: 38px;
+		height: 38px;
+		padding-bottom: 2px;
+		vertical-align: middle;
+	}
+	
+	#currentQuiz {
+		margin: 0px;
+		display: inline-block;
+		padding: 0px;
+		padding-left: 5px;
+		font-size: 1.2em;
+		color: black;
+		line-height: 40px;
+		margin: 0px;
+		
+	}
+
+	#nameLogo {
+		margin: 0px;
+		display: inline-block;
+		padding: 0px;
+		font-size: 1.2em;
+		color: black;
+		line-height: 40px;
+		margin: 0px;
+		margin-left: 2px;
+}
+
+#nav {
+	height: 20px;
+	background-color: sienna;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+	#nav p {
+		display: inline-block;
+		line-height: 10px;
+		padding: 5px 10px;
+		font-size: .8em;
+	}
+	
+	#nav a {
+		color: black;
+	}
+	
+	
+
+	#logout {
+		font-size: 1.8em;
+		margin-left: 725px;
+		/*margin-left: 67%;*/
+	}
+
+
+#playerStatus {
+	float: left;
+	width: 25%;
+	height: 1000px;
+	/*background-color: hsl(240, 0%, 80%);*/
+	margin: 0px;
+	position: relative;
+}
+
+	#playerStatus h2 {
+		font-size: 1.3em;
+		text-align: center;
+		padding: 7px 0px 12px 0px;
+		font-weight: bold;
+	}
+	
+
+	#score {
+		background-color: hsl(78, 90%, 40%);
+		height: 230px;
+		width: 80%;
+		text-align: left;
+		padding: 10px;
+		margin: 0 auto;
+		margin-top: 50px;
+		font-size: 1.2em;
+		line-height: 1.4em;
+		box-shadow: 10px 10px 5px 5px rgba(0,0,0,.1);
+		}
+		
+			
+		.color {
+			color: darkgreen;
+			font-size: 1.2em;
+			font-weight: bold;
+		}
+		#name {
+			padding-top: 20px;
+		}
+		
+		.quiz {
+			font-weight: bolder;
+		}
+		
+		#personalBest {
+			text-align: center;
+		}
+		
+		#badgeReq {
+			font-size: .9em;
+			text-align: center;
+			padding-top: 10px;
+			font-style: italic;
+		}
+	
+	#badges {
+		background-color: hsl(78, 90%, 40%);
+		height: 400px;
+		width: 80%;
+		text-align: left;
+		padding: 10px;
+		font-size: 1.2em;
+		margin: 0 auto;
+		margin-top: 50px;
+		line-height: 2.0em;
+		box-shadow: 10px 10px 5px 5px rgba(0,0,0,.1);
+		}
+		
+		#badges tr {
+			line-height: 2.0em;
+		}
+		
+		#badges td {
+			font-size: 1.2em;
+			vertical-align: top;
+		}
+		
+main {
+	float: left;
+	width: 75%;
+	height: 1000px;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	/*background-color: hsl(240, 0%, 80%);*/
+	
+}
+
+#quizSpace {
+	width: 75%;
+	margin: 5px 10px;
+	margin-left: 20px;
+	float: left;
+	/*border-style: inset;*/
+	/*border-width: 5px;*/
+	/*border-color: gray;*/
+/*	background-color: hsl(45, 70%, 80%);*/
+	/*background-color: hsl(240, 50%, 80%);*/
+	/*background-color: #8BAFFF;*/
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+0,ddf1f9+35,a0d8ef+100;Blue+3D+%2318 */
+/*	background: #feffff; /* Old browsers */
+/*	background: -moz-linear-gradient(left,  hsl(180,100%,100%) 0%, hsl(197,70%,92%) 35%, hsl(197,71%,78%) 100%); /* FF3.6+ */
+/*	background: -webkit-gradient(linear, left top, right top, color-stop(0%,hsl(180,100%,100%)), color-stop(35%,hsl(197,70%,92%)), color-stop(100%,hsl(197,71%,78%))); /* Chrome,Safari4+ */
+/*	background: -webkit-linear-gradient(left,  hsl(180,100%,100%) 0%,hsl(197,70%,92%) 35%,hsl(197,71%,78%) 100%); /* Chrome10+,Safari5.1+ */
+/*	background: -o-linear-gradient(left,  hsl(180,100%,100%) 0%,hsl(197,70%,92%) 35%,hsl(197,71%,78%) 100%); /* Opera 11.10+ */
+/*	background: -ms-linear-gradient(left,  hsl(180,100%,100%) 0%,hsl(197,70%,92%) 35%,hsl(197,71%,78%) 100%); /* IE10+ */
+/*	background: linear-gradient(to right,  hsl(180,100%,100%) 0%,hsl(197,70%,92%) 35%,hsl(197,71%,78%) 100%); /* W3C */
+/*	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=1 ); /* IE6-9 */	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+
+/*	background: #eeeeee; /* Old browsers */
+/*	background: -moz-linear-gradient(left,  hsla(0,0%,93%,1) 0%, hsla(0,0%,80%,1) 100%); /* FF3.6+ */
+/*	background: -webkit-gradient(linear, left top, right top, color-stop(0%,hsla(0,0%,93%,1)), color-stop(100%,hsla(0,0%,80%,1))); /* Chrome,Safari4+ */
+/*	background: -webkit-linear-gradient(left,  hsla(0,0%,93%,1) 0%,hsla(0,0%,80%,1) 100%); /* Chrome10+,Safari5.1+ */
+/*	background: -o-linear-gradient(left,  hsla(0,0%,93%,1) 0%,hsla(0,0%,80%,1) 100%); /* Opera 11.10+ */
+/*	background: -ms-linear-gradient(left,  hsla(0,0%,93%,1) 0%,hsla(0,0%,80%,1) 100%); /* IE10+ */
+/*	background: linear-gradient(to right,  hsla(0,0%,93%,1) 0%,hsla(0,0%,80%,1) 100%); /* W3C */
+/*	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=1 ); /* IE6-9 */
+
+}		
+	#picture {
+		height: 650px;
+		padding-top: 0px;
+		}
+		
+		#picture img {
+			display: block;
+			margin: 0px auto;
+		}
+		
+		#picture p {
+			font-size: .5em;
+			margin-top: 5px;
+			text-align: center;
+		}
+		
+	#question {
+		height: 65px;
+		padding: 3px;
+		font-size: 1.4em;
+		font-weight: bolder;
+		text-align: center;
+	}
+	
+	fieldset {
+		padding: 3px 30px;
+		font-size: 1.2em;
+		border: none;
+		margin: 0px;
+	}
+	
+	#submit {
+		/*display: block;
+		margin: 0px auto;*/
+		width: 100px;
+	}
+	
+		
+#conversation_incorrect {
+
+	margin: 0px 0px 0px 0px;
+	padding: 20px;
+	width: 150px;
+	height: 130px;
+	/*background-color: hsl(265, 70%, 65%);*/
+	/*background-color: peru;*//*this is good for incorrect*/
+
+	/*color below is for an incorrect answer*/
+	/*background-color: hsl(78, 90%, 40%);*/
+	/*active color is for incorrect */
+	/*background-color: hsl(340, 40%, 40%);*/
+	font-weight: bolder;
+	background-color: rgb(125,0,0);
+	position: absolute;
+	top: 50%;
+	left: 75%;
+	text-align: center;
+	box-shadow: 10px 10px 5px 5px rgba(0,0,0,.2);
+	/*active color is for incorrect */
+	border-radius: 80px/90px;
+		}
+		
+#conversation_correct {
+
+	margin: 0px 0px 0px 0px;
+	padding: 20px;
+	width: 150px;
+	height: 130px;
+	/*background-color: hsl(265, 70%, 65%);*/
+	/*background-color: peru;*//*this is good for incorrect*/
+
+	/*color below is for an incorrect answer*/
+	/*background-color: hsl(78, 90%, 40%);*/
+	/*active color is for incorrect */
+	/*background-color: hsl(340, 40%, 40%);*/
+	font-weight: bolder;
+	/*background-color: rgb(0,255,42);*/
+	background-color: hsl(78, 90%, 40%);
+	position: absolute;
+	top: 50%;
+	left: 75%;
+	text-align: center;
+	box-shadow: 10px 10px 5px 5px rgba(0,0,0,.2);
+	/*active color is for incorrect */
+	border-radius: 80px/90px;
+			}
+
+#conversation_unanswered {
+
+	margin: 0px 0px 0px 0px;
+	padding: 20px;
+	width: 150px;
+	height: 130px;
+	/*background-color: hsl(265, 70%, 65%);*/
+	/*background-color: peru;*//*this is good for incorrect*/
+
+	/*color below is for an incorrect answer*/
+	/*background-color: hsl(78, 90%, 40%);*/
+	/*active color is for incorrect */
+	/*background-color: hsl(340, 40%, 40%);*/
+	font-weight: bolder;
+	/*background-color: rgb(0,255,42);*/
+	background-color: rgb(13, 219, 255);
+	position: absolute;
+	top: 50%;
+	left: 75%;
+	text-align: center;
+	box-shadow: 10px 10px 5px 5px rgba(0,0,0,.2);
+	/*active color is for incorrect */
+	border-radius: 80px/90px;
+						}
+
+		
+		
+		#grade {
+			font-size: 1.3em;
+			padding-top: 20px;
+		}
+				
+		#convo {
+			padding-top: 20px;
+			font-size: 1em;
+			text-align: left;
+		}
+		
+footer {
+	clear: both;
+	height: 40px;
+	width: 100%;
+	background-color: peru;
+	text-align: center;
+}
+
+
